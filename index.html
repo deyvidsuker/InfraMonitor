@@ -2,14 +2,25 @@
 <html>
 <head>
     <title>InfraMonitor</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <h1>InfraMonitor</h1>
 
-<h2>Monitoreo de Infraestructura</h2>
+<div class="card">
+    CPU: <span id="cpu">--</span>%
+</div>
 
-<p>Proyecto Azure + Ubuntu Server</p>
+<div class="card">
+    RAM: <span id="ram">--</span>%
+</div>
+
+<div class="card">
+    Disco: <span id="disk">--</span>%
+</div>
+
+<script src="script.js"></script>
 
 </body>
 </html>
